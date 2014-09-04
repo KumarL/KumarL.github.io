@@ -98,6 +98,7 @@ GEM
       ffi (>= 0.5.0)
     rdiscount (2.1.7)
     redcarpet (3.1.2)
+    rouge (1.6.2)
     safe_yaml (1.0.3)
     sass (3.4.2)
     thread_safe (0.3.4)
@@ -106,6 +107,7 @@ GEM
       parslet (~> 1.5.0)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    wdm (0.1.0)
     yajl-ruby (1.1.0-x86-mingw32)
 
 PLATFORMS
@@ -113,3 +115,5 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  rouge
+  wdm (~> 0.1.0)
